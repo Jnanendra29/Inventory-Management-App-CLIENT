@@ -1,0 +1,152 @@
+/* Styling for navbar */
+
+.navbar {
+    background-color: #333;
+    padding: 15px 0;
+    color: white;
+  }
+  
+  .navbar-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar-logo {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .logo{
+    width: 2.5rem;
+  }
+  
+  .nav-menu {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-item {
+    margin-right: 45px;
+  }
+  
+  .nav-links {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .nav-links:hover {
+    border-bottom: 2px solid white;
+  }
+
+  
+  /* Styling for footer */
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  
+  .footer-links a:hover {
+    border-bottom: 1px solid white;
+  }
+  
+  /* Styling for Sign Up  */
+
+  .register, .product{
+    margin-left: 30%;
+  }
+
+  .inputelement{
+    border: 1px solid black;
+    display: block;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    width: 20rem;
+    padding: 0.5rem;
+  }
+
+  .signUpButton, .button{
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    width: 7rem;
+    padding: 0.5rem;
+    background-color: #333;
+    color: white;
+    border: none;
+  }
+
+  /* Styling for Login */
+  .login{
+    margin-left: 30%;
+  }
+
+  /* Styling for products page */
+  .product-list{
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .product-list ul{
+    margin: 0px;
+  }
+
+  .product-list ul li{
+    display: inline-block;
+    border: 1px solid #333;
+    padding: 5px;
+    width: 150px;
+  }
+
+  /* extra styles */
+  .nav-right{
+    margin-left: auto;
+  }
+  .errormsg{
+    color:red;
+    margin-top: -18px;
+    display: block;
+    margin-left: 20px;
+    margin-bottom: 9px;
+  }
+
+  .searchbox{
+    width: 210px;
+    margin: 16px;
+    height: 23px;
+    border: 1px solid black;
+  }
